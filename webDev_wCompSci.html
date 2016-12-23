@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chingu Study Group</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="javascript/helperFunctions.js"></script>
+    <script>
+        $.get("navigationBootstrap.html", function(data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+
+
+</head>
+
+<div id="nav-placeholder"></div>
+
+<body>
+    <div class="container">
+        <!-- INTRO CONTENT -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1>Web Development with Computer Science Foundations - Comprehensive Path</h1>
+            </div>
+
+            <div class="panel-body">
+                <p>This Guide is heavier on web development than the other, if you want less practical web development but more rigorous coverage of computer science you might want to check out Guide: Computer Science and Web Development - comprehensive
+                    path 149 as well and pick the one that most meets your goals.</p>
+
+            </div>
+        </div>
+
+
+        <!-- Collapse 1 - YDKJS -->
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href = "#collapse1">
+          Tier One - Get Started</a>
+        </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse-in">
+                    <div class="panel-body">
+                        <div class="row">
+                            <ul class="book">
+                                <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going" target="_blank">
+                                    <li>Book 1: Up & Going</li>
+                                </a>
+                                <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures" target="_blank">
+                                    <li>Book 2: Scope & Closures</li>
+                                </a>
+                                <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes" target="_blank">
+                                    <li>Book 3: this & Object Prototypes</li>
+                                </a>
+
+                                <a href="http://learn.shayhowe.com/html-css/" target="_blank">
+                                    <li>Learn to Code HTML & CSS</li>
+                                </a>
+
+                                <a href="https://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage" target="_blank">
+                                    <li>Portfolio from the frontend section of FCC</li>
+                                </a>
+
+                                <a href="https://www.edx.org/course/apr-computer-science-principles-harvardx-cs50-ap" target="_blank">
+                                    <li>Introduction to Computer Science - CS50</li>
+                                </a>
+
+                                <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar" target="_blank">
+                                    <li>Book 4: Types & Grammar</li>
+                                </a>
+                                <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance" target="_blank">
+                                    <li>Book 5: Async & Performance</li>
+                                </a>
+                                <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond" target="_blank">
+                                    <li>Book 6: ES6 & Beyond</li>
+                                </a>
+                                <a href="http://learn.shayhowe.com/advanced-html-css/" target="_blank">
+                                    <li>Learn to Code Advanced HTML & CSS</li>
+                                </a>
+                                <a href="https://creativemarket.com/ikonome/686585-Material-Resume-Blue/screenshots/#screenshot2" target="_blank">
+                                    <li>Clone this online resume template</li>
+                                </a>
+                                <a href="http://www.pixelearth.net/pages/project-specification" target="_blank">
+                                    <li>Read Project Specification Documents </a>
+                                <ul>
+                                    <li>Get in the habit of including every bit of information it details that makes sense for a project in the README.md or other supporting documentation for your projects</li>
+                                </ul>
+                                </li>
+
+
+                                <a href="https://www.edx.org/course/effective-thinking-through-mathematics-utaustinx-ut-9-01x-0" target="_blank">
+                                    <li>Effective Thinking Through Mathematics</li>
+                                </a>
+                                <a href="https://leanpub.com/setting-up-es6/read" target="_blank">
+                                    <li>Setting Up ES6</li>
+                                </a>
+                                <a href="https://leanpub.com/javascriptallongesix" target="_blank">
+                                    <li>JavaScript Allongé, the "Six" Edition</li>
+                                </a>
+                                <a href="http://www.sassshop.com/#/" target="_blank">
+                                    <li>Getting Sassy with CSS</li>
+                                </a>
+
+                                <li>Build an Online Towers of Hanoi Solver
+                                    <ul>
+                                        <li>Must accept a tower height between 5 and 10, and then displays a graphical (animated) solution, iteratively moving each piece until the puzzle is solved</li>
+                                    </ul>
+                                </li>
+
+                                <a href="http://www.free-css.com/free-css-templates" target="_blank">
+                                    <li>Create a New Template</a>
+                                <ul>
+                                    <li>Pick a template from here and create a new template with it as your inspiration (do not use its assets)</li>
+                                </ul>
+                                </li>
+</ul>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Collapse 2 - CS50 -->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        CS 50 Course</a>
+      </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">CS50 Information
+                        <div class="row">
+                            <div class="col-md-4"><img class="img-responsive" src="http://www.cs50xhelpers.org/img/fb.png"></div>
+                            <div class="col-md-8">
+                                <h2><a href="https://www.edx.org/course/apr-computer-science-principles-harvardx-cs50-ap" target="_blank">CS50</a></h2>
+                                <p>CS50 is Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming for students with a diversity of technological background and experience. CS50 for AP Computer Science
+                                    Principles is an adaptation of CS50 specifically tailored to align with the AP Computer Science Principles curriculum framework. The course’s assignments, materials, and resources are all identical to the version of
+                                    the course taught at the college-level, albeit adapted to suit a secondary school audience.</p>
+                                <p>
+                                    Among this course’s objectives is to supply you with a comprehensive introduction to the fundamentals of the discipline of computer science. We will do so using programming in several different languages as a vehicle to introduce these fundamentals, including
+                                    such topics as algorithms, abstraction, data, global impact, and internet technologies. Though the course is programming-heavy, it should be stressed that this is not a “programming course”; rather, this course should
+                                    be considered one of problem-solving, creativity, and exploration. By year’s end, you will have a richer understanding of the key principles of the discipline of computer science. You will be able to speak intelligently
+                                    about how computers work and how they enable us to become better problem-solvers, and will hopefully be able to communicate that knowledge to others.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Collapse 3 - JavaScript Allonge -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        JavaScript Allonge, the "Six" Edition</a>
+      </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-4"><img class="img-responsive" src="https://s3.amazonaws.com/titlepages.leanpub.com/javascriptallongesix/hero?1481821535"></div>
+                                <div class="col-md-8">
+                                    <h2><a href="https://leanpub.com/javascriptallongesix" target="_blank">JavaScript Allonge, the "Six" Edition Information</a></h2>
+                                    <h4>Programming from Functions to Classes in ECMAScript 2015</h4>
+                                    <p>A long pull of functions, combinators, & decorators, updated to include the latest ES-6 features.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Collapse 4 - MondoDV -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        Introduction to MondoDV using the MEAN Stack</a>
+      </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-4"><img class="img-responsive" src="https://www.edx.org/sites/default/files/styles/course_video_banner/public/course/image/featured-card/mongodbx_mean-stack318x210.jpg?itok=ZBRKw9wY"></div>
+                                    <div class="col-md-8">
+                                        <h2><a href="https://www.edx.org/course/introduction-mongodb-using-mean-stack-mongodbx-m101x-0" target="_blank">Introduction to MongoDB using the MEAN Stack</a></h2>
+                                        <h4>Learn everything you need to know to develop a retail application using MongoDB, Node.js and the MEAN Stack</h4>
+                                        <p>This advanced computer science course will provide an overview of several of the most popular web and mobile app development toolkits, including MongoDB, ExpressJS, AngularJS, and Node.js. Together, these tools
+                                            are called the “MEAN stack.”</p>
+
+                                        <p>
+
+                                            This is an advanced course for experienced web developers. In this course, we will introduce the essential concepts of the MEAN stack using a fast-paced, learn-by- doing approach. As a concrete example, we will walk through building a retail application.
+                                            This online store will enable users to search for products, add them to their cart, and check out using Stripe, an online payment processor. You’ll build your own REST API (Representational State Transfer Application
+                                            Programming Interface) server from scratch using MongoDB schema design principles, as well as a web application using AngularJS and a hybrid mobile application using the Ionic framework.</p>
+                                        <p>
+                                            When you complete the course, you will receive a discount to MongoDB Professional Certification, enabling you to demonstrate your skills, show recruiters and hiring managers your expertise, and earn a spot in the MongoDB Certified Professional Finder.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+</body>

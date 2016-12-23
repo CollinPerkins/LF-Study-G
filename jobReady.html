@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chingu Study Group</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="javascript/helperFunctions.js"></script>
+    <script>
+        $.get("navigationBootstrap.html", function(data) {
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+
+
+</head>
+
+<div id="nav-placeholder"></div>
+
+<body>
+    <div class="container">
+        <!-- INTRO CONTENT -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1>The Complete "Get-Job-Ready" List</h1>
+                <h2>How to Get Job Ready With 1 FCC Certificate, 3 Projects, 2 Courses, and 10 Books</h2>
+            </div>
+
+            <div class="panel-body">
+                <p>Do you want to be job ready (for a junior role) without finishing all three certifications? Want to short-circuit the process and get this done quick without getting laughed out of interviews?</p>
+
+
+                <p>Are you thinking "I'll just finish the frontend certification" and start applying?</p>
+
+                <p>You're looking at the wrong certification to get prepared and I'll tell you why. The frontend certification does NOT teach you any of the real world skills that go along with programming that you'll need on the job. It doesn't teach you
+                    how to work in an editor on your own machine. It doesn't teach you how to run a build process. It doesn't teach you how to share your code in a git repository. And, it doesn't teach you how to deploy your code to a real server on the
+                    net.</p>
+
+                <p>Have no fear - there IS a FCC certification that will get you much, much closer to your goal. Combine it with just a few other resources and you can get there. The backend certification is the one you want to be aiming for.</p>
+
+                <p>Finish this list - and you'll walk into interviews with a lot more confidence, and a much better chance of landing that job.</p>
+
+            </div>
+          </div>
+
+
+            <br>
+
+            <!-- Collapse 1 - YDKJS -->
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href = "#collapse1">
+          You Don't Know JavaScript</a>
+        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse-in accordionOpenTile">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-4"><img class="jsBookImage img-responsive" src="images/YDKJS_Cover.jpg"></div>
+                                <div class="col-md-8">
+                                    <ul class="book">
+                                        <p>This is a series of books diving deep into the core mechanisms of the JavaScript language. The materials herein are all (c) 2013-2016 Kyle Simpson</p>
+                                        <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going" target="_blank">
+                                            <li>Book 1: Up & Going</li>
+                                        </a>
+                                        <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures" target="_blank">
+                                            <li>Book 2: Scope & Closures</li>
+                                        </a>
+                                        <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes" target="_blank">
+                                            <li>Book 3: this & Object Prototypes</li>
+                                        </a>
+                                        <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar" target="_blank">
+                                            <li>Book 4: Types & Grammar</li>
+                                        </a>
+                                        <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance" target="_blank">
+                                            <li>Book 5: Async & Performance</li>
+                                        </a>
+                                        <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond" target="_blank">
+                                            <li>Book 6: ES6 & Beyond</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Collapse 2 - CS50 -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        CS 50 Course</a>
+      </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">CS50 Information
+                                <div class="row">
+                                    <div class="col-md-4"><img class="img-responsive" src="http://www.cs50xhelpers.org/img/fb.png"></div>
+                                    <div class="col-md-8">
+                                        <h2><a href="https://www.edx.org/course/apr-computer-science-principles-harvardx-cs50-ap" target="_blank">CS50</a></h2>
+                                        <p>CS50 is Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming for students with a diversity of technological background and experience. CS50 for AP Computer
+                                            Science Principles is an adaptation of CS50 specifically tailored to align with the AP Computer Science Principles curriculum framework. The course’s assignments, materials, and resources are all identical to
+                                            the version of the course taught at the college-level, albeit adapted to suit a secondary school audience.</p>
+                                        <p>
+                                            Among this course’s objectives is to supply you with a comprehensive introduction to the fundamentals of the discipline of computer science. We will do so using programming in several different languages as a vehicle to introduce these fundamentals, including
+                                            such topics as algorithms, abstraction, data, global impact, and internet technologies. Though the course is programming-heavy, it should be stressed that this is not a “programming course”; rather, this course
+                                            should be considered one of problem-solving, creativity, and exploration. By year’s end, you will have a richer understanding of the key principles of the discipline of computer science. You will be able to
+                                            speak intelligently about how computers work and how they enable us to become better problem-solvers, and will hopefully be able to communicate that knowledge to others.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Collapse 3 - JavaScript Allonge -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        JavaScript Allonge, the "Six" Edition</a>
+      </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-md-4"><img class="img-responsive" src="https://s3.amazonaws.com/titlepages.leanpub.com/javascriptallongesix/hero?1481821535"></div>
+                                        <div class="col-md-8">
+                                            <h2><a href="https://leanpub.com/javascriptallongesix" target="_blank">JavaScript Allonge, the "Six" Edition Information</a></h2>
+                                            <h4>Programming from Functions to Classes in ECMAScript 2015</h4>
+                                            <p>A long pull of functions, combinators, & decorators, updated to include the latest ES-6 features.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Collapse 4 - MondoDV -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        Introduction to MondoDV using the MEAN Stack</a>
+      </h4>
+                                </div>
+                                <div id="collapse4" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-4"><img class="img-responsive" src="https://www.edx.org/sites/default/files/styles/course_video_banner/public/course/image/featured-card/mongodbx_mean-stack318x210.jpg?itok=ZBRKw9wY"></div>
+                                            <div class="col-md-8">
+                                                <h2><a href="https://www.edx.org/course/introduction-mongodb-using-mean-stack-mongodbx-m101x-0" target="_blank">Introduction to MongoDB using the MEAN Stack</a></h2>
+                                                <h4>Learn everything you need to know to develop a retail application using MongoDB, Node.js and the MEAN Stack</h4>
+                                                <p>This advanced computer science course will provide an overview of several of the most popular web and mobile app development toolkits, including MongoDB, ExpressJS, AngularJS, and Node.js. Together, these
+                                                    tools are called the “MEAN stack.”</p>
+
+                                                <p>
+
+                                                    This is an advanced course for experienced web developers. In this course, we will introduce the essential concepts of the MEAN stack using a fast-paced, learn-by- doing approach. As a concrete example, we will walk through building a retail application.
+                                                    This online store will enable users to search for products, add them to their cart, and check out using Stripe, an online payment processor. You’ll build your own REST API (Representational State Transfer
+                                                    Application Programming Interface) server from scratch using MongoDB schema design principles, as well as a web application using AngularJS and a hybrid mobile application using the Ionic framework.</p>
+                                                <p>
+                                                    When you complete the course, you will receive a discount to MongoDB Professional Certification, enabling you to demonstrate your skills, show recruiters and hiring managers your expertise, and earn a spot in the MongoDB Certified Professional Finder.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- COLLAPSE 5 - FCC Backend Certification -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                        The FCC Backend Certification</a>
+                        </h4>
+                                </div>
+                                <div id="collapse5" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-4"><img class="img-responsive" src="https://i.imgur.com/8v3t84p.jpg"></div>
+                                            <div class="col-md-8">
+                                                <h2><a href = "https://www.freecodecamp.com/challenges/claim-your-back-end-development-certificate" target = "_blank">Claim Your FreeCodeCamp Backend Certificate</a></h2>
+                                                <p>This challenge will give you your verified Back End Development Certificate. Before we issue your certificate, we must verify that you have completed all of the back end development projects. You must also
+                                                    accept our Academic Honesty Pledge. Click the button below to start this process.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- COLLAPSE 6 - DOM Enlightenment -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+        DOM Enlightenment</a>
+      </h4>
+                                </div>
+                                <div id="collapse6" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-4"><img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/51KZAS1X6HL._SX386_BO1,204,203,200_.jpg"></div>
+                                            <div class="col-md-8">
+                                                <h2><a href = "http://domenlightenment.com/" target = "_blank">DOM Enlightenment</a></h2>
+                                                <p>As I authored this book, I specifically had two types of developers in mind. I assume both types already have an intermediate to advanced knowledge of JavaScript, HTML, and CSS. The first developer is someone
+                                                    who has a good handle on JavaScript or jQuery, but has really never taken the time to understand the purpose and value of a library like jQuery (the reason for its rhyme, if you will). Equipped with
+                                                    the knowledge from this book, that developer should fully be able to understand the value provided by jQuery for scripting the DOM. And not just the value, but how jQuery abstracts the DOM and where
+                                                    and why jQuery is filling the gaps. The second type of developer is an engineer who is tasked with scripting HTML documents that will only run in modern browsers or that will get ported to native code
+                                                    for multiple OS's and device distributions (e.g. PhoneGap) and needs to avoid the overhead (i.e. size or size v.s. use) of a library</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- COLLAPSE 7 - FCC Portfolio Project-->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+        FCC Portfolio Project</a>
+      </h4>
+                                </div>
+                                <div id="collapse7" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-4"><img class="img-responsive" src="https://i.imgur.com/8v3t84p.jpg"></div>
+                                            <div class="col-md-8">
+                                                <h2><a href = "https://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage" target = "_blank">Build a Personal Portfolio Webpage</a></h2>
+                                                <p>Build a Personal Portfolio Webpage.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- COLLAPSE 8 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+        Javascript Design Patterns</a>
+      </h4>
+                                </div>
+                                <div id="collapse8" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-4"><img class="img-responsive" src="https://addyosmani.com/resources/essentialjsdesignpatterns/cover/cover.jpg"></div>
+                                            <div class="col-md-8">
+                                                <h2><a href = "https://addyosmani.com/resources/essentialjsdesignpatterns/book/" target = "_blank">Learning JavaScript Design Patterns</a></h2>
+                                                <p>Design patterns are reusable solutions to commonly occurring problems in software design. They are both exciting and a fascinating topic to explore in any programming language.</p>
+
+                                                <p>One reason for this is that they help us build upon the combined experience of many developers that came before us and ensure we structure our code in an optimized way, meeting the needs of problems we're
+                                                    attempting to solve.</p>
+
+                                                <p>Design patterns also provide us a common vocabulary to describe solutions. This can be significantly simpler than describing syntax and semantics when we're attempting to convey a way of structuring a solution
+                                                    in code form to others.</p>
+
+                                                <p>In this book we will explore applying both classical and modern design patterns to the JavaScript programming language.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- COLLAPSE 9 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+        Netflix Interface Project</a>
+      </h4>
+                                </div>
+                                <div id="collapse9" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-4"><img class="img-responsive" src="https://pbs.twimg.com/profile_images/744949842720391168/wuzyVTTX.jpg"></div>
+                                            <div class="col-md-8">
+                                                <h2><a href = "#" target = "_blank">Netflix Interface Project</a></h2>
+                                                <p>Clone the Netflix interface using React, Angular, or Vue - pulling data from the <a href="https://www.themoviedb.org/documentation/api" target="_blank">Movie DB API</a> or an API in a backend you create
+                                                    yourself.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- COLLAPSE 10 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+        Open Data Structures</a>
+      </h4>
+                                </div>
+                                <div id="collapse10" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-4"><img class="img-responsive" src="https://images-na.ssl-images-amazon.com/images/I/416hvgsM0NL._SX331_BO1,204,203,200_.jpg"></div>
+                                            <div class="col-md-8">
+                                                <h2><a href = "http://www.aupress.ca/books/120226/ebook/99Z_Morin_2013-Open_Data_Structures.pdf" target = "_blank">Open Data Structures</a></h2>
+                                                <p>Open Data Structures covers the implementation and analysis of data structures for sequences (lists), queues, priority queues, unordered dictionaries, ordered dictionaries, and graphs.</p>
+                                                <p>
+                                                    Data structures presented in the book include stacks, queues, deques, and lists implemented as arrays and linked-lists; space-efficient implementations of lists; skip lists; hash tables and hash codes; binary search trees including treaps, scapegoat trees,
+                                                    and red-black trees; integer searching structures including binary tries, x-fast tries, and y-fast tries; heaps, including implicit binary heaps and randomized meldable heaps; graphs, including adjacency
+                                                    matrix and ajacency list representations; and B-trees.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- COLLAPSE 11 -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+        Admin Template Project</a>
+      </h4>
+                                </div>
+                                <div id="collapse11" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-md-6"><img class="img-responsive" src="images/adminTemplate.png"></div>
+                                            <div class="col-md-6">
+                                                <h2><a href = "http://rubix410.sketchpixy.com/ltr/dashboard" target = "_blank">Clone an Admin Template</a></h2>
+                                                <p>Make a clone of the admin template linked above using React, Angular, or Vue</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+</body>
+
+<div id="footer-placeholder"></div>
